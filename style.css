@@ -1,0 +1,188 @@
+/* تنظیمات اولیه صفحه */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IRANSans', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #ff3333; /* رنگ قرمز برای هدر */
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  color: #fff;
+  margin: 0;
+}
+
+header .search-box input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+/* بخش اصلی */
+main {
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ff3333;
+}
+
+/* طرح بندی شبکه ویدیوها */
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.video {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.video img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-info {
+  padding: 15px;
+}
+
+.video-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.video-info p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.btn-watch {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff3333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-watch:hover {
+  background-color: #ff6666;
+}
+
+.video:hover {
+  transform: translateY(-5px); /* افکت شناور شدن کارت ویدیو */
+}
+
+/* پانویس */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer .social-links a {
+  color: #ff3333;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+  color: #ff6666;
+}
+.iframe-container {
+  text-align: center; /* مرکز کردن iframe */
+  margin: 20px 0; /* فاصله بالا و پایین */
+}
+
+iframe {
+  border: none; /* حذف حاشیه */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* اضافه کردن سایه */
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9; /* رنگ پس‌زمینه ملایم */
+  color: #333; /* رنگ متن */
+  margin: 0;
+}
+
+.container {
+  width: 80%; /* عرض محتوا */
+  max-width: 1200px; /* حداکثر عرض */
+  margin: 0 auto; /* مرکز کردن */
+  padding: 20px; /* فاصله داخلی */
+}
+
+header {
+  background-color: #4CAF50; /* رنگ پس‌زمینه هدر */
+  color: white; /* رنگ متن هدر */
+  padding: 10px 0; /* فاصله داخلی */
+  text-align: center; /* مرکز کردن متن */
+}
+
+h2 {
+  color: #4CAF50; /* رنگ عنوان */
+  margin-top: 20px;
+}
+
+.iframe-container {
+  text-align: center; /* مرکز کردن iframe */
+  margin: 20px 0; /* فاصله بالا و پایین */
+}
+
+iframe {
+  border: none; /* حذف حاشیه */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* اضافه کردن سایه */
+}
+
+h3 {
+  margin-top: 20px; /* فاصله بالا */
+  color: #ff3333; /* رنگ عنوان ویدیو */
+}
+
+p {
+  color: #555; /* رنگ توضیحات */
+  font-size: 16px;
+  margin-top: 10px; /* فاصله بالا */
+}
+
+footer {
+  background-color: #333; /* رنگ پس‌زمینه فوتر */
+  color: white; /* رنگ متن فوتر */
+  text-align: center; /* مرکز کردن متن */
+  padding: 10px 0; /* فاصله داخلی */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
